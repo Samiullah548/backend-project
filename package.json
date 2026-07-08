@@ -9,9 +9,12 @@
   ],
   "license": "ISC",
   "author": "Samiullah Khan",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "\\"
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
