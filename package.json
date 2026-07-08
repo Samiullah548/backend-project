@@ -1,0 +1,17 @@
+{
+  "name": "backend-project",
+  "version": "1.0.0",
+  "description": "a advanced backend project",
+  "keywords": [
+    "javascript",
+    "backend",
+    "chai"
+  ],
+  "license": "ISC",
+  "author": "Samiullah Khan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "\\"
+  }
+}
