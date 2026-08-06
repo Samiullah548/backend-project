@@ -3,7 +3,7 @@ import { v2 as cloudinary } from "cloudinary";
 import fs from "fs";
 
 
-import { v2 as cloudinary } from 'cloudinary';
+import { v2 as cloudinary } from 'cloudinary';       
 
 // Configuration
 cloudinary.config({
@@ -27,3 +27,5 @@ const uploadOnCloudinary = async (localFilePath) => {
         return null
     }
 }
+
+export { uploadOnCloudinary }
